@@ -6,8 +6,10 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         String inputString = scan.nextLine();
         System.out.println(inputString);
+        
         int intList = 0;
         boolean errors = false;
+        
         char[] charList = inputString.toCharArray();
         for (char c:charList
              ) {

@@ -9,9 +9,14 @@ public class Main {
         
         int intList = 0;
         boolean errors = false;
-        
+        int newint = 123;
+
         char[] charList = inputString.toCharArray();
-        for (char c:charList
+        char[] charList2 = Integer.toString(newint).toCharArray();
+
+        System.out.println(charList2);
+
+        for (char c:charList2
              ) {
             try {
                 intList += Integer.parseInt(Character.toString(c));
